@@ -3,11 +3,23 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import First_components,{ Demo } from './component/Firstcomponent';
+import {Gallery,Profile} from './component/Gallery';
+import Gallery1 from './component/Gallery1';
+import Profile1 from './component/Profile1';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    {/* <App /> */}
+    {/* <Demo/> */}
+    <Gallery/>
+    <Profile/>
+    <Gallery1/>
+    <Profile1/>
+    
+
+    {/* <First_components/> */}
   </React.StrictMode>
 );
 
